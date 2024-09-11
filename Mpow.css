@@ -942,7 +942,7 @@ s {
     height: 253px;
     position: absolute;
     left: 70px;
-    top: 190px;
+    top: 140px;
     z-index: -20;
     /* transform: rotateZ(24deg); */
     background-color: var(--clr-primary-red);
@@ -957,15 +957,15 @@ s {
     display: block;
     position: absolute;
     width: 180px;
-    top: 200px;
-    right: 35%;
+    top: 160px;
+    right: 30%;
     transform: rotate3d(1, 1, 1, 17.17deg);
     animation: pic 1.8s infinite alternate;
   }
   .shadow {
     width: 130px;
     height: 25px;
-    bottom: 58%;
+    bottom: 56%;
     left: 32%;
   }
 
@@ -1106,7 +1106,7 @@ s {
   }
   .last-section {
     display: flex;
-    width: 396px;
+    width: 348px;
 
     position: relative;
   }
@@ -1157,6 +1157,7 @@ s {
     display: flex;
     gap: 20px;
     overflow-x: scroll;
+    margin-top: 2em;
   }
   .lst-section::-webkit-scrollbar {
     display: none;
